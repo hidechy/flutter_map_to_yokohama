@@ -73,10 +73,12 @@ class HomeScreen extends ConsumerWidget {
     );
   }
 
+  /////////////////////////////////////////////////////////////////
+
   ///
   Future<void> makePolyline() async {
-    // latList = [];
-    // lngList = [];
+    latList = [];
+    lngList = [];
 
     final routeTransitState = _ref.watch(
       routeTransitProvider(
